@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pickle
 
-with open('trainable.pkl', 'rb') as file:
+with open('mnist_encoder_decoder_weights.pkl', 'rb') as file:
     myvar = pickle.load(file)
     
 
